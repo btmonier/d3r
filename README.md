@@ -6,6 +6,9 @@ Basic tests to see how to integrate the D3.js JavaScript graphics library with R
 Example usage:
 
 ```r
+# Display circles at random radii
+
+set.seed(123)
 sample(10:15, 20, replace = TRUE) |> myD3Visualizer(500, 500)
 ```
 
