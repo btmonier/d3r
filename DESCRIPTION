@@ -1,0 +1,19 @@
+Package: d3r
+Type: Package
+Title: An R Interface to d3.js Visualizations
+Version: 0.1.0
+Authors@R: 
+    person(
+        given = "Brandon",
+        family = "Monier",
+        email = "brandon.monier@gmail.com",
+        role = c("aut", "cre"),
+        comment = c(ORCID = "0000-0001-6797-1221")
+    )
+Description: Basic D3.js to R interface
+Encoding: UTF-8
+LazyData: true
+Imports:
+    htmlwidgets,
+    htmltools
+RoxygenNote: 7.3.2
